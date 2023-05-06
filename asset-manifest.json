@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Resume/static/css/main.20c2ce65.css",
+    "main.js": "/Resume/static/js/main.8f2a8375.js",
+    "static/media/BuhOne.png": "/Resume/static/media/BuhOne.b6c85014b685182ae279.png",
+    "static/media/photo.png": "/Resume/static/media/photo.42aa838f8760e73f7a29.png",
+    "static/media/Eurocrane_company.png": "/Resume/static/media/Eurocrane_company.138d9a8023b6d4cc82ae.png",
+    "static/media/FakeAPI.png": "/Resume/static/media/FakeAPI.27f723ccec3557a1fab9.png",
+    "static/media/CvJohn.png": "/Resume/static/media/CvJohn.64c28be27146cd367bd0.png",
+    "static/media/AuthorizationForm.png": "/Resume/static/media/AuthorizationForm.18eba41b31bf80ee60c3.png",
+    "static/media/todoList.png": "/Resume/static/media/todoList.03129762d4945799697b.png",
+    "index.html": "/Resume/index.html",
+    "main.20c2ce65.css.map": "/Resume/static/css/main.20c2ce65.css.map",
+    "main.8f2a8375.js.map": "/Resume/static/js/main.8f2a8375.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20c2ce65.css",
+    "static/js/main.8f2a8375.js"
+  ]
+}
