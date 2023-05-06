@@ -1,0 +1,28 @@
+.containerNav{
+    height: 50px;
+    width: 100%;
+
+    background-color: #eae6e6;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.containerNav a{
+    height: 30px;
+    padding-right: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lineMain{
+    border-right: 1px solid black;
+}
