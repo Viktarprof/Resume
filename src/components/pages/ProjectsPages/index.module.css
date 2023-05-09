@@ -44,3 +44,15 @@
     transform: scale(1.5);
     transition: transform 0.8s ease-in-out;
 }
+.toolsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 70px 110px 100px 170px);
+    align-items: center;
+    column-gap: 10px;
+}
+.tools{
+    margin: 5px;
+    text-align: center;
+    background-color: #8d9fc97d;
+    border-radius: 20px;
+}

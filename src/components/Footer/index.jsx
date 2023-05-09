@@ -14,16 +14,16 @@ function Footer() {
         </p>
         <div className={s.sotial_logo}>
           <div className={s.logo}>
-            <a href="https://www.instagram.com/kalosha_viktar/">
+            <a href="https://www.instagram.com/kalosha_viktar/" target="blank">
               <BsInstagram style={{ color: "deeppink", fontSize: "20" }} />
             </a>
-            <a href="www.linkedin.com/in/viktar-kalosha-1b8457151">
+            <a href="https://www.linkedin.com/in/viktar-kalosha-1b8457151" target="blank">
               <BsLinkedin style={{ color: "dodgerblue", fontSize: "20" }} />
             </a>
-            <a href="https://www.facebook.com/ViktarKalosha">
+            <a href="https://www.facebook.com/ViktarKalosha" target="blank">
               <BsFacebook style={{ color: "blue", fontSize: "20" }} />
             </a>
-            <a href="https://github.com/Viktarprof">
+            <a href="https://github.com/Viktarprof" target="blank">
               <BsGithub style={{ fontSize: "20" }} />
             </a>
           </div>
