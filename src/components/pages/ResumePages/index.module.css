@@ -51,3 +51,25 @@
     font-weight: 300;
     line-height: 20px;
 }
+@media(max-width: 500px){
+    .work,
+    .education{
+        flex-direction: column;
+        gap:10px;
+    }
+    .education p{
+        width: 400px;
+    }
+    .education p:last-child{
+       padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 390px){
+    .infoWork,
+    .infoEducation,
+    .infoWork p,
+    .education p{
+        width: 370px;
+    }
+}

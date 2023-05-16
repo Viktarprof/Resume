@@ -8,23 +8,23 @@ function Footer() {
   return (
     <>
       <div className={s.container_Footer}>
-        <p>{<IoIosPhonePortrait style={{ fontSize: "20" }} />}: +48 57 537 6296</p>
+        <p>{<IoIosPhonePortrait/>}: +48 57 537 6296</p>
         <p>
-          <a href="kaloshaviktor1@mail.com"><CiMail style={{ fontSize: "20" }}/></a> : kaloshaviktor1@mail.com
+          <a href="kaloshaviktor1@mail.com"><CiMail/></a> : kaloshaviktor1@mail.com
         </p>
         <div className={s.sotial_logo}>
           <div className={s.logo}>
             <a href="https://www.instagram.com/kalosha_viktar/" target="blank">
-              <BsInstagram style={{ color: "deeppink", fontSize: "20" }} />
+              <BsInstagram style={{ color: "deeppink" }} />
             </a>
             <a href="https://www.linkedin.com/in/viktar-kalosha-1b8457151" target="blank">
-              <BsLinkedin style={{ color: "dodgerblue", fontSize: "20" }} />
+              <BsLinkedin style={{ color: "dodgerblue" }} />
             </a>
             <a href="https://www.facebook.com/ViktarKalosha" target="blank">
-              <BsFacebook style={{ color: "blue", fontSize: "20" }} />
+              <BsFacebook style={{ color: "blue"}} />
             </a>
             <a href="https://github.com/Viktarprof" target="blank">
-              <BsGithub style={{ fontSize: "20" }} />
+              <BsGithub  />
             </a>
           </div>
         </div>

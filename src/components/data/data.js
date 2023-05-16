@@ -5,6 +5,9 @@ import FakeAPI from './media/FakeAPI.png';
 import todoList from './media/todoList.png';
 import Eurocrane_company from './media/Eurocrane_company.png'
 import cart_redux from './media/reduxCart.png'
+import RockPaperScissors from './media/RockPaperScissors.png'
+import slider from './media/slider.png'
+import calculator from './media/Calculator.png'
 
 export const education = [
     {
@@ -34,10 +37,10 @@ export const education = [
 export const workExperience = [
     {
         id: 1,
-        title: "Private Unitary Enterprise 'MarkTur'",
-        profetions: "Tourism Manager",
-        description: "Tour selection. Tourist consultation. Registration for obtaining visas at the consulates of the Republic of Poland and the Republic of Lithuania.",
-        date: 'April 2013 — June 2014'
+        title: "Kamienica Zamenhofa",
+        profetions: "Marketing department specialist",
+        description: "Maintaining a profile and creating content on social networks. Implementing paid advertising campaigns. Market analysis, reporting activities, planning marketing events.",
+        date: 'June 2021 — September 2022'
     },
     {
         id: 2,
@@ -48,27 +51,27 @@ export const workExperience = [
     },
     {
         id: 3,
-        title: "Kamienica Zamenhofa",
-        profetions: "Marketing department specialist",
-        description: "Maintaining a profile and creating content on social networks. Implementing paid advertising campaigns. Market analysis, reporting activities, planning marketing events.",
-        date: 'June 2021 — September 2022'
+        title: "Private Unitary Enterprise 'MarkTur'",
+        profetions: "Tourism Manager",
+        description: "Tour selection. Tourist consultation. Registration for obtaining visas at the consulates of the Republic of Poland and the Republic of Lithuania.",
+        date: 'April 2013 — June 2014'
     },
+   
 ];
 
-    export const skill = [
-        "High performance" ,  "HTML5" , "CSS"  , "JavaScript" , "React" , "Redux", "MySQL", "MongoDB" , "Git" , "Agile" , "Teamwork" , "Handling large amounts of information" 
+export const skill = [
+        "High performance" ,  "HTML5" , "CSS"  , "JavaScript" , "React" , "Redux",'Responsive design', "MySQL", "MongoDB" , "Git" , "Agile" , "Teamwork" , "Handling large amounts of information" 
     ]
-
 
 
 export const portfolio = [
     {
         id: 1,
-        title: "John Reusme",
+        title: "Resume for John",
         description: "The website created as part of a job search has the functionality of an adaptive page and the ability to navigate between different pages. Additionally, this website uses HashRouter, which provides more efficient handling of URL addresses.",
         image: CvJohn,
         link: 'https://viktarprof.github.io/CV_John/#/',
-        tools: ['React', 'Responsive']
+        tools: ['CSS', 'React', 'JavaScript', 'Responsive design']
     },
     {
         id: 2,
@@ -76,7 +79,7 @@ export const portfolio = [
         description: "Thanks to the use of the React framework and Redux library, this application has achieved high flexibility in state management. They provide a convenient mechanism for storing and processing data, which allows creating a scalable application with a rich user interface and easy state management",
         image: cart_redux,
         link: 'https://viktarprof.github.io/Cart_redux/',
-        tools: ['React', 'Redux', 'JavaScript']
+        tools: ['React', 'Redux', 'JavaScript', 'browserrouter']
     },
     {
         id: 3,
@@ -84,7 +87,7 @@ export const portfolio = [
         description: "The developed application allows the user to add tasks for each day of the week with the ability to specify the importance of each task. Once a task is completed, it can be removed from the list. The application is built using React. Local browser storage (localstorage) is used to store data in the application.",
         image: todoList,
         link: 'https://viktarprof.github.io/todo/',
-        tools: ['React', 'Responsive']
+        tools: ['React', 'localstorage', 'Responsive']
     },
     {
         id: 4,
@@ -116,5 +119,29 @@ export const portfolio = [
         image: BuhOne,
         link: 'https://viktarprof.github.io/TelRan_frontend/Frontend/HomeWork/Tigran/HW7(%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0%20%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%2C%20JS-%D1%81%D0%BB%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%2C%20%D0%91%D1%83%D1%80%D0%B3%D0%B5%D1%80%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0)/index.html',
         tools: ['HTML', 'SCC', 'JavaScript', 'Responsive design']
+    },
+    {
+        id: 8,
+        title: "The game 'Rock-paper-scissors'",
+        description: "This game is written in JavaScript. It keeps track of the winners and calculates the score.",
+        image: RockPaperScissors,
+        link: 'https://viktarprof.github.io/TelRan_frontend/Frontend/HomeWork/Roza/HW6(%D0%B8%D0%B3%D1%80%D0%B0%20%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C%20%D0%BD%D0%BE%D0%B6%D0%BD%D0%B8%D1%86%D1%8B%20%D0%B1%D1%83%D0%BC%D0%B0%D0%B3%D0%B0%20)/index.html',
+        tools: ['HTML', 'SCC', 'JavaScript', ]
+    },
+    {
+        id: 9,
+        title: "Slider",
+        description: "The code implements the functionality of switching images in a slider. It includes controls that allow users to manually navigate through the slides.",
+        image: slider,
+        link: 'https://viktarprof.github.io/TelRan_frontend/Frontend/HomeWork/Roza/HW5(%D1%81%D0%BB%D0%B0%D0%B9%D0%B4%D0%B5%D1%80)/index.html',
+        tools: ['HTML', 'SCC', 'JavaScript', ]
+    },
+    {
+        id: 10,
+        title: "Calculator",
+        description: "I have created a simple JavaScript code for a calculator. This code allows the user to perform basic mathematical operations such as addition, subtraction, multiplication, and division. It also provides the functionality to clear the input field and display the calculation result. The code offers a basic calculator functionality that can be expanded and customized to meet specific needs and interface design.",
+        image: calculator,
+        link: 'https://viktarprof.github.io/TelRan_frontend/Frontend/HomeWork/interesting/Calculator/index.html',
+        tools: ['HTML', 'SCC', 'JavaScript', ]
     },
 ]

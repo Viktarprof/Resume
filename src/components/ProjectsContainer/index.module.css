@@ -6,3 +6,30 @@
     gap:50px;
     margin: 50px 0 50px 0;   
 }
+
+@media(max-width: 1000px){
+    .projectsContainer{
+        width: 1000px;
+    }
+}
+@media(max-width: 900px){
+    .projectsContainer{
+        width: 800px;
+    }
+}
+
+@media (max-width: 600px){
+    .projectsContainer{
+        width: 600px;
+
+        justify-content: center;
+        align-items: center;
+       
+    }
+}
+
+@media (max-width: 390px){
+    .projectsContainer{
+        width: 390px;
+    } 
+}

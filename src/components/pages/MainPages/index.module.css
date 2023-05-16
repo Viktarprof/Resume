@@ -76,3 +76,51 @@
 .nav_btn a:nth-child(3){
     background-color:#80d6d7;
 }
+
+
+@media(max-width: 1000px){
+    .containerMain{
+        width: 900px;
+        height: 1000px;    
+        display: flex;
+        flex-direction: column;
+    }
+    .infoText{
+        width: 850px;
+    }
+    .nav_btn{
+        width: 850px;
+    }
+}
+
+@media(max-width: 650px){
+    .containerMain{
+        width: 600px;
+        height: 1050px;    
+    }
+    .containerMain img{
+        width: 350px;
+    }
+    .infoText{
+        width: 550px;
+    }
+    .nav_btn{
+        width: 550px;
+    }
+}
+
+@media(max-width: 390px){
+    .containerMain{
+        width: 390px;
+        height: 1250px;    
+    }
+    .containerMain img{
+        width: 250px;
+    }
+    .infoText{
+        width: 350px;
+    }
+    .nav_btn{
+        width: 350px;
+    }
+}

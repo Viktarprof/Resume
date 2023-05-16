@@ -1,6 +1,5 @@
 .scrollTop {
     font-size: 30px;
-    color: #007afd;
 
     position: fixed;
     bottom: 50px;
@@ -15,11 +14,23 @@
   @keyframes pulse {
     0% {
     transform: scale(1);
+    color: #007afd79;
     }
     50% {
     transform: scale(1.4);
+    color: #007afd;
     }
     100% {
     transform: scale(1);
+    color: #007afd79;
     }
     }
+
+    @media(max-width: 390px){
+      .scrollTop{
+        font-size: 50px;
+        bottom: 30px;
+        right: 10px;
+      }
+      
+      }

@@ -2,6 +2,7 @@
     margin-bottom: 100px;
     font-family: "Heebo";
     font-weight: 300;
+
 }
 
 .works_container{
@@ -26,12 +27,12 @@
 }
 
 .skills_container{
+    width: 100%;
     border-bottom: 1px solid black;
     padding-bottom: 40px;
     display: flex;
     justify-content: center;
     gap: 250px;
-    width: 1100px;
     margin-top: 50px;
 }
 
@@ -46,4 +47,54 @@ ul{
 
     display: flex;
     flex-direction: column;
+}
+
+
+@media(max-width: 800px){
+    .skills_container{
+     width: 750px;
+    }
+}
+@media(max-width: 750px){
+    .works_container,
+    .skills_container{
+     width: 500px;
+
+     flex-direction: column;
+
+     gap: 20px;
+    }
+
+    .works_container
+    h2{
+    width: 185px;
+    }
+    .resumeContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+@media(max-width: 500px){
+    .works_container,
+    .skills_container,
+    .job{
+     width: 400px;
+    }
+    /* .job{
+        width: 400px;
+    } */
+    .works_container{
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width: 390px){
+    .works_container,
+    .skills_container,
+    .job{
+     width: 370px;
+    }
 }
