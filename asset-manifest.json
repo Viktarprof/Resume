@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.9f9005e3.css",
-    "main.js": "/Resume/static/js/main.7f737d4d.js",
+    "main.css": "/Resume/static/css/main.92132b6e.css",
+    "main.js": "/Resume/static/js/main.6dfebe57.js",
+    "static/media/slider.png": "/Resume/static/media/slider.cc1199e64b523aa0c435.png",
+    "static/media/RockPaperScissors.png": "/Resume/static/media/RockPaperScissors.ce010a8993b5307379e7.png",
     "static/media/BuhOne.png": "/Resume/static/media/BuhOne.b6c85014b685182ae279.png",
     "static/media/photo.png": "/Resume/static/media/photo.42aa838f8760e73f7a29.png",
     "static/media/Eurocrane_company.png": "/Resume/static/media/Eurocrane_company.138d9a8023b6d4cc82ae.png",
     "static/media/FakeAPI.png": "/Resume/static/media/FakeAPI.27f723ccec3557a1fab9.png",
+    "static/media/Calculator.png": "/Resume/static/media/Calculator.39cb86af8e11befebc57.png",
     "static/media/reduxCart.png": "/Resume/static/media/reduxCart.5d2c2fab0efb01525422.png",
     "static/media/CvJohn.png": "/Resume/static/media/CvJohn.64c28be27146cd367bd0.png",
     "static/media/AuthorizationForm.png": "/Resume/static/media/AuthorizationForm.18eba41b31bf80ee60c3.png",
     "static/media/todoList.png": "/Resume/static/media/todoList.03129762d4945799697b.png",
     "index.html": "/Resume/index.html",
-    "main.9f9005e3.css.map": "/Resume/static/css/main.9f9005e3.css.map",
-    "main.7f737d4d.js.map": "/Resume/static/js/main.7f737d4d.js.map"
+    "main.92132b6e.css.map": "/Resume/static/css/main.92132b6e.css.map",
+    "main.6dfebe57.js.map": "/Resume/static/js/main.6dfebe57.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f9005e3.css",
-    "static/js/main.7f737d4d.js"
+    "static/css/main.92132b6e.css",
+    "static/js/main.6dfebe57.js"
   ]
 }
