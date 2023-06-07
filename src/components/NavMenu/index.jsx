@@ -52,20 +52,4 @@ function NavMenu() {
   );
 }
 
-export default NavMenu;
-
-
-
-
-
-// .btn_burger {
-//   width: 50px;
-//   height: 50px;
-//   margin-top: 20px;
-//   margin-right: 20px;
-//   position: fixed;
-//   top: 0;
-//   right: 0;
-//   z-index: 10000;
-//   animation: pulse 2s infinite;
-// }
+export default NavMenu

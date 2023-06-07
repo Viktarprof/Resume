@@ -28,6 +28,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
+    text-align: justify;
 }
 
 .cartProject img{
@@ -46,11 +47,13 @@
 }
 .toolsContainer{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(60px, 170px)  minmax(90px, 170px) minmax(80px, 170px) minmax(170px, 170px));
-
+    grid-template-columns: repeat(auto-fill, minmax(100px, 170px)  minmax(120px, 170px) minmax(110px, 170px) minmax(170px, 170px));
 
     align-items: center;
     column-gap: 10px;
+}
+.toolsContainer p{
+    text-align: center;
 }
 .tools{
     margin: 5px;
