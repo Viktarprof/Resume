@@ -62,7 +62,7 @@ export const workExperience = [
 ];
 
 export const skill = [
-        "High performance" ,  "HTML5" , "CSS"  , "JavaScript" , "React" , "Redux",'Responsive design', "MySQL", "MongoDB" , "Git" , "Agile" , "Teamwork" , "Handling large amounts of information" 
+        "High performance" , "HTML5" , "CSS"  , "JavaScript" , "React" , "Redux" , "Redux-Toolkit" , "Bootstrap" , 'Responsive design' , "MySQL" , "MongoDB" , "Git" , "Agile" , "Teamwork" , 'Multitasking' , 'Communicate well' , "Handling large amounts of information" 
     ]
 
 
